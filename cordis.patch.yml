@@ -1,0 +1,6 @@
+# dsh-plugin-model-manager — 组合包补丁层
+# 由 package.json 的 dsh.bundle.patch 声明：安装并启用本组合包后由 desktop profile 自动应用。
+# 插入一行双面插件：Host 半侧（模型目录过滤 + 设置命名空间 model-manager）与浏览器半侧（供应商开关 + 快捷入口）。
+- insert:
+    - id: model-manager
+      name: dsh-plugin-model-manager

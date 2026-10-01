@@ -1,0 +1,10 @@
+# 本机开发笔记：不随仓库公开
+docs/
+
+# 注意：node_modules/ 是"故意提交"的——树外插件按 realpath 解析模块，
+# 走不到 profile 的 node_modules，所以两个运行时依赖随包携带。不要忽略它。
+
+# 系统杂项
+Thumbs.db
+desktop.ini
+.DS_Store
